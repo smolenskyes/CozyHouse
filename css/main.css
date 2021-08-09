@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(241, 205, 179);
+}
+
+header p {
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    color: #CDCDCD;
+}
+
+nav ul li{
+    margin-left: 35px;
+}
+
+.active{
+    border-bottom: 3px solid rgb(241, 205, 179, 1);
+    padding-bottom: 4px;
+}
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
+/* MAIN */
+/* MAIN */
+/* MAIN */
+
+.hero {
+    background-image: url(../img/dog.png), linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    background-repeat: no-repeat;
+    background-position: 83% bottom;
+    height: 908px;
+    padding-top: 180px;
+}
+
+.hero h1 {
+    margin-top: 193px;
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 400px;
+    line-height: 130%;
+}
+
+.hero p {
+    padding-top: 42px;
+    padding-bottom: 41px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #CDCDCD;
+    line-height: 160%;
+    max-width: 500px;
+}
+
+
+.hero button {
+    border: none;
+    padding: 15px 45px;
+    color: rgb(41, 41, 41);
+    line-height: 130%;
+    background-color: rgb(241, 205, 179);
+    border-radius: 100px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+/* FIRST_SECTION */
+/* FIRST_SECTION */
+/* FIRST_SECTION */
+/* FIRST_SECTION */
+
+.aboutpets {
+    display: inline-block;
+    margin: 80px 215px 100px 175px;
+    vertical-align: top;
+}
+
+.cozy-house {
+    display: inline-block;
+    width: 430px;
+    vertical-align: top;
+    margin-top: 94px;
+}
+
+.cozy-house h2 {
+    display: block;
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.cozy-house p {
+    margin-top: 25px;
+    color: #4C4C4C;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+/* SECOND_SECTION */
+/* SECOND_SECTION */
+/* SECOND_SECTION */
+/* SECOND_SECTION */
+
+.friends {
+    text-align: center;
+}
+
+.flex-friends {
+    display: flex;
+    max-width: 990px;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.friends a {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    color: rgb(41, 41, 41);
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 45px;
+    border: solid 2px rgb(241, 205, 179);
+    border-radius: 100px;
+    margin-bottom: 60px;
+}
+
+.friends p {
+    color: rgb(84, 84, 84);
+    margin: 30px 0;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+
+.friends h2 {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    margin-bottom: 60px;
+}
+
+.info {
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: rgb(241, 205, 179);
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    border: 1px solid #f1cdb3;
+    border-radius: 100px;
+}
+
+.friends .container {
+    position: relative;
+}
+
+.picture {
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+
+.left {
+    background-image: url(../img/Arrow.svg);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    cursor: pointer;
+    border-color: rgb(241, 205, 179);
+
+}
+
+.right {
+    background-image: url(../img/Arrow2.svg);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    cursor: pointer;
+    border-color: rgb(241, 205, 179);
+}
+
+
+/* THRID_SECTION */
+/* THRID_SECTION */
+/* THRID_SECTION */
+/* THRID_SECTION */
+/* THRID_SECTION */
+/* THRID_SECTION */
+
+.help {
+    text-align: center;
+}
+
+.help h2 {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    margin-top: 182px;
+    margin-bottom: 60px;
+}
+
+.flex-help {
+    margin: auto;
+    padding-bottom: 43px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-help figure {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 55px;
+}
+
+.flex-help p {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    margin-top: 30px;
+
+}
+
+/* FOUR_SECTION/ */
+/* FOUR_SECTION/ */
+/* FOUR_SECTION/ */
+/* FOUR_SECTION/ */
+/* FOUR_SECTION/ */
+
+
+.donation {
+    padding: 80px 0 100px 0;
+    background-color: #F6F6F6;
+}
+
+.donation-dog {
+    display: inline-block;
+    margin: 12px 30px 11px 142px;
+}
+
+.donation-info {
+    display: inline-block;
+    width: 380px;
+}
+
+.donation-info h2 {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    padding-bottom: 20px;
+}
+
+.donation-info > p {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    padding-bottom: 21px;
+}
+
+.credit-card {
+    background-color: rgb(241, 205, 179);
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.credit-card p {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    text-align: center;
+    padding-left: 15px;
+}
+
+.legal {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+    color: rgb(178, 178, 178);
+    margin-top: 19px;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer {
+    background: linear-gradient(90.26deg, #7D602B 0.23%, #251000 99.8%);
+    padding-top: 40px;
+}
+
+footer h2 {
+    font-size: 35px;
+    color: white;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-bottom: 33px;
+}
+
+footer .flex > div {
+    width: 270px;
+}
+
+footer .flex {
+    align-items: flex-start;
+}
+
+footer p {
+    min-height: 46px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    color: #f1cdb3;
+    margin-bottom: 27px;
+}
+
+footer a {
+    color: #f1cdb3;
+    text-decoration: none;
+}
+
+footer .email {
+    background: url(../img/icon-email.svg) no-repeat left center;
+}
+
+footer .tel {
+    background: url(../img/icon-phone.svg) no-repeat left center;
+}
+
+footer .local {
+    background: url(../img/icon-marker.svg) no-repeat left center;
+    padding-left: 42px;
+}
+
+
+
+/* MEDIA */
+/* MEDIA */
+/* MEDIA */
+/* MEDIA */
+
+
+@media (max-width:1280px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width:835px) {
+    .flex-friends {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .picture:last-child {
+        display: none;
+    }
+
+    .donation-info {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero {
+        background-image: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    }
+
+    .flex-friends {
+        justify-content: center;
+    }
+}
